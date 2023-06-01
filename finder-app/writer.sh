@@ -11,6 +11,7 @@ if [ ! $# -eq 2 ]; then
 fi
 file_path=$1
 
+
 # Check if it possible to create a file to the path in argument 1
 if ! echo "$2" >"$file_path"; then
 	echo "Error: Could not create file at $file_path"
