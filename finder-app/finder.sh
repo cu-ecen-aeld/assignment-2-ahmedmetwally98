@@ -11,7 +11,7 @@ if [ ! $# -eq 2 ]; then
 else
 	# check if the director is a real directory in my file system
 	if [ ! -d "$1" ]; then
-		echo "ERROR: The given Directory $1 doesn't exist!"
+		echo "ERROR: The Given Directory $1 doesn't exist!"
 		exit 1
 	fi
 fi
